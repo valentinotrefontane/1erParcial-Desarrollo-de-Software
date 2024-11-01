@@ -30,7 +30,7 @@ Test-Automáticos, Code coverage > 80%, Diagrama de Secuencia / Arquitectura del
 
 <h1>Instrucciones de uso </h1>
 
-<h2> 🧟‍♂️ isMutant </h2>
+<h2> isMutant </h2>
 
 Para utilizar el agoritmo de deteccion de mutantes debemos enviar un array de Strings en formato Json bajo el nombre "stringDna".
 
@@ -84,7 +84,7 @@ Aqui un ejemplo de un DNA humano.
 }
 ```
 
-<h2>📖 Estadisticas </h2>
+<h2> Estadisticas </h2>
 
 Si enviamos una peticion al siguiente link, nos devolvera en formato Json, la cantidad de mutantes y humanos detectados, asi como su proporcion.
 
@@ -102,7 +102,7 @@ Ejemplo
 
 ```
 
-<h2>👾 Algoritmo </h2>
+<h2> Algoritmo </h2>
 
 El algoritmo basicamente consiste en la verificacion de la celda n+2, si esta es coincidente con la celda n, verifica la celda n, en caso de ser verdad se verifica la celda n+3 si esta es distinta verificaria la celda n-1
 
@@ -123,7 +123,7 @@ Los elementos "D" chequearan las 4 DIAGONALES.
 ![image](https://github.com/user-attachments/assets/00f58535-e7c4-461a-af20-08c217217f58)
 
 
-<h1>🔸 Diagrama de secuencia </h1>
+<h1> Diagrama de secuencia </h1>
 
 
 <h3> DNA no existente y se debe verificar </h3>
@@ -138,7 +138,6 @@ Si el DNA pedido ya existe en la base de datos
 <h3> Uso del endpoint /stats </h3>
 
 ![Secuencia  Stats](https://github.com/user-attachments/assets/ea43419d-d6bd-42ce-a811-4fef49b3c8db)
-
 
 
 
