@@ -42,17 +42,17 @@ Test-Automáticos, Code coverage > 80%, Diagrama de Secuencia / Arquitectura del
 
 Para utilizar el agoritmo de deteccion de mutantes debemos enviar un array de Strings en formato Json bajo el nombre "stringDna".
 
-Por ejemplo si enviamos el siguiente DNA a https://parcial-desarrollo-de-software.onrender.com/mutant
+Por ejemplo si enviamos el siguiente DNA a https://1erParcial-desarrollo-de-software.onrender.com/mutant
 
 ```json
 
 {
     "stringDna": [
-                "AGCCG",
-                "ACCGG",
-                "AAGGC",
-                "CGACA",
-                "ACGAA"
+                "GACCG",
+                "ACCGA",
+                "AGCGA",
+                "AAACA",
+                "GCAAA"
     ]
 }
 
@@ -96,16 +96,16 @@ Aqui un ejemplo de un DNA humano.
 
 Si enviamos una peticion al siguiente link, nos devolvera en formato Json, la cantidad de mutantes y humanos detectados, asi como su proporcion.
 
-https://parcial-desarrollo-de-software.onrender.com/stats
+https://1erParcial-desarrollo-de-software.onrender.com/stats
 
 Ejemplo
 
 ```json
 
 {
-    "count_mutant_dna": 3,
+    "count_mutant_dna": 4,
     "count_human_dna": 2,
-    "ratio": 1.5
+    "ratio": 2
 }
 
 ```
@@ -155,4 +155,4 @@ Aqui un ejemplo de como quedaria para una matriz 7x7.
 
 
 
-Bruno Palombarini 3K10
+Valentino Trefontane 3k9
