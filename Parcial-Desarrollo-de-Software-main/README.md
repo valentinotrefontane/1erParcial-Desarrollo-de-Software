@@ -1,5 +1,5 @@
 
-<h1> 🌐 Enunciado del trabajo </h1>
+<h1> Enunciado a realizar </h1>
 
 Magneto quiere reclutar la mayor cantidad de mutantes para poder luchar contra los X-Mens.
 Te ha contratado a ti para que desarrolles un proyecto que detecte si un humano es mutante basándose en su secuencia de ADN.
@@ -28,7 +28,7 @@ Exponer un servicio extra “/stats” que devuelva un Json con las estadística
 Tener en cuenta que la API puede recibir fluctuaciones agresivas de tráfico (Entre 100 y 1 millón de peticiones por segundo). Utilizar Jmeter
 Test-Automáticos, Code coverage > 80%, Diagrama de Secuencia / Arquitectura del sistema.
 
-<h1>📝 Instrucciones de uso </h1>
+<h1>Instrucciones de uso </h1>
 
 <h2> 🧟‍♂️ isMutant </h2>
 
@@ -122,18 +122,16 @@ Los elementos "D" chequearan las 4 DIAGONALES.
 
 ![image](https://github.com/user-attachments/assets/00f58535-e7c4-461a-af20-08c217217f58)
 
-Ahora supongamos que tenemos una matrix NxN, en las filas pares y columnas impares corresponderia un elemento "X", en las filas impares y columnas impares tambien corresponde un elemento "X",
-y añadiremos elementos "D" segun corresponda cada 3 filas.
-
 
 <h1>🔸 Diagrama de secuencia </h1>
 
 
-<h3> Si el DNA pedido no existe en la base de datos y debe ser verificado</h3>
+<h3> DNA no existente y se debe verificar </h3>
 
 ![Secuencia  Mutantes no existe el ADN](https://github.com/user-attachments/assets/ce9aa70a-ee5f-4864-8ccc-2aaa951d1b78)
 
-<h3> Si el DNA pedido ya existe en la base de datos</h3>
+Si el DNA pedido ya existe en la base de datos
+<h3> DNA ya existente </h3>
 
 ![Diagrama de secuencai  Mutantes Existe el ADN](https://github.com/user-attachments/assets/cc1699b5-fae2-4e80-a5d1-91673e52d1f8)
 
